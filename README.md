@@ -11,6 +11,8 @@ The repo contains the following modules in the source directory:
 
 We define all the necessary classes for the model in `utils.py`. Training and test performance estimation is done in the `main.py` module.
 
+The directory of images has to be in the current directory for training the model.
+
 We save the checkpoint from the best model in the `./model_ouputs` folder. This is later used for inference and for the demo.
  
 The `inference.py` module accepts as inputs from the command line the path to an unseen image and the title and yields the prediction. For this the `./model_ouputs` folder has to be in the same directory with the module.
